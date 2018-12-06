@@ -40,4 +40,3 @@ void ConfigureClockModule(void)
     BCSCTL1 = CALBC1_1MHZ;
     BCSCTL2 |= DIVS_3;
 }
-
