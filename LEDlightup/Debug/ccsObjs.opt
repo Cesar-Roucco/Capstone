@@ -1,0 +1,1 @@
+"./LED.obj" "./main.obj" -llibc.a 

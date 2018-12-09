@@ -431,3 +431,86 @@ The release after Mars (4.5) will no longer support the deprecated usage!
 
 !ENTRY org.eclipse.cdt.core 1 0 2018-12-08 21:59:33.302
 !MESSAGE Indexed 'LEDlightup' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 22:10:49.570
+!MESSAGE Indexed 'PWMcapstone' (4 sources, 8 headers) in 0.363 sec: 192 declarations; 676 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+!SESSION 2018-12-08 22:37:19.383 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -data C:\Users\Student\Desktop\Git\Capstone -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2018-12-08 22:37:21.439
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-12-08 22:37:21.443
+!MESSAGE debugServerDir=C:/ti/ccsv6/ccs_base/DebugServer
+
+!ENTRY org.eclipse.ui 2 0 2018-12-08 22:37:38.041
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.graph.visualization' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-12-08 22:37:38.061
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.rovsupport' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-12-08 22:37:38.077
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-12-08 22:37:38.085
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.util.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-12-08 22:37:38.117
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.uia.sessionmgr.view' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 22:37:51.227
+!MESSAGE Indexed 'LEDlightup' (1 sources, 0 headers) in 0.092 sec: 2 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 4 unresolved names (67%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 22:42:36.736
+!MESSAGE Indexed 'lightupLED' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 22:42:37.316
+!MESSAGE Indexed 'lightupLED' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 22:42:38.343
+!MESSAGE Indexed 'lightupLED' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 23:03:51.410
+!MESSAGE Indexed 'pushbuttontestLED' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 23:03:51.900
+!MESSAGE Indexed 'pushbuttontestLED' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 23:03:52.941
+!MESSAGE Indexed 'pushbuttontestLED' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.jface 2 0 2018-12-08 23:04:37.558
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-08 23:04:37.558
+!MESSAGE A conflict occurred for ALT+CTRL+C:
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(com.ti.ccstudio.debug.ui.command.connectTarget,Connect Target,
+		Connect the selected core(s),
+		Category(com.ti.ccstudio.debug.ui.commandCategory,Code Composer Studio Debug Commands,Set of commands for Code Composer Studio debug actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1817f9b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.actions.KeyActionCommand,Insert ChangeLog entry,
+		Insert a ChangeLog entry,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f8ff58,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)

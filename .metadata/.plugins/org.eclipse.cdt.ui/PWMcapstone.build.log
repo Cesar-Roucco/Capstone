@@ -2,25 +2,10 @@
 **** Build of configuration Debug for project PWMcapstone ****
 
 "C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
-'Building file: ../LED.c'
-'Invoking: MSP430 Compiler'
-"C:/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --advice:power=all -g --define=__MSP430G2553__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="LED.d"  "../LED.c"
-'Finished building: ../LED.c'
-' '
 'Building file: ../main.c'
 'Invoking: MSP430 Compiler'
 "C:/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --advice:power=all -g --define=__MSP430G2553__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
 'Finished building: ../main.c'
-' '
-'Building file: ../pir.c'
-'Invoking: MSP430 Compiler'
-"C:/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --advice:power=all -g --define=__MSP430G2553__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="pir.d"  "../pir.c"
-'Finished building: ../pir.c'
-' '
-'Building file: ../timerA.c'
-'Invoking: MSP430 Compiler'
-"C:/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --advice:power=all -g --define=__MSP430G2553__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="timerA.d"  "../timerA.c"
-'Finished building: ../timerA.c'
 ' '
 'Building target: PWMcapstone.out'
 'Invoking: MSP430 Linker'
