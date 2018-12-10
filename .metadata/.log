@@ -514,3 +514,219 @@ Binding(ALT+CTRL+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2018-12-09 17:49:30.604 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -data C:\Users\Student\Desktop\Git\Capstone -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2018-12-09 17:49:34.083
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-12-09 17:49:34.158
+!MESSAGE debugServerDir=C:/ti/ccsv6/ccs_base/DebugServer
+
+!ENTRY org.eclipse.ui 2 0 2018-12-09 17:50:22.842
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.graph.visualization' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-12-09 17:50:22.884
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.rovsupport' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-12-09 17:50:22.916
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-12-09 17:50:22.921
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.util.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2018-12-09 17:50:22.998
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.uia.sessionmgr.view' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-09 18:17:04.591
+!MESSAGE Indexed 'pushbuttontestLED' (1 sources, 5 headers) in 0.613 sec: 172 declarations; 627 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:17:16.966
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:17:17.326
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:17:23.774
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:17:23.788
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:17:32.408
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:17:32.422
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:17:34.678
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:17:34.694
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:18:14.205
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:18:14.224
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:18:43.387
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 18:18:43.408
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-09 20:06:44.907
+!MESSAGE Indexed 'lightupLED' (2 sources, 6 headers) in 0.253 sec: 180 declarations; 643 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-09 20:15:20.136
+!MESSAGE Indexed 'PWMcapstone' (4 sources, 8 headers) in 0.226 sec: 192 declarations; 676 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:15:30.822
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:15:31.064
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.system.setup.ui 1 0 2018-12-09 20:27:15.573
+!MESSAGE targetCfgPath1=C:/Users/Student/user/CCSTargetConfigurations
+
+!ENTRY com.ti.ccstudio.system.setup.ui 1 0 2018-12-09 20:27:15.580
+!MESSAGE targetCfgPath2=C:/Users/Student/ti/CCSTargetConfigurations
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:27:31.471
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:27:31.731
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:27:46.323
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:27:46.343
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:28:22.131
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:28:22.359
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:28:29.869
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-09 20:28:29.882
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 14:38:27.050
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not set device Vcc
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 14:38:27.662
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not set device Vcc
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 14:40:47.491
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 14:40:47.509
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 14:41:37.611
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 14:41:37.657
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found
+!SESSION 2018-12-10 15:12:41.895 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2018-12-10 15:13:31.519
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-12-10 15:13:31.555
+!MESSAGE debugServerDir=C:/ti/ccsv8/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-12-10 15:14:22.520
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-12-10 15:14:22.548
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-12-10 15:14:22.552
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-10 15:14:24.636
+!MESSAGE Indexed 'PWMcapstone' (4 sources, 8 headers) in 0.828 sec: 192 declarations; 676 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 15:27:47.784
+!MESSAGE DS_ERROR: MSP430: JTAG Communication Error 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 15:37:00.315
+!MESSAGE DS_ERROR: MSP430: GEL: Target must be connected before calling the function
+
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2018-12-10 15:37:00.323
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@825086): Status ERROR: com.ti.ccstudio.debug code=20003 Target must be connected before calling the function null' resulted in an error.
+!SUBENTRY 1 com.ti.ccstudio.debug 4 20003 2018-12-10 15:37:00.323
+!MESSAGE Target must be connected before calling the function
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 15:40:04.524
+!MESSAGE DS_ERROR: MSP430: GEL: Target must be connected before calling the function
+
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2018-12-10 15:40:04.532
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@ff36d9): Status ERROR: com.ti.ccstudio.debug code=20003 Target must be connected before calling the function null' resulted in an error.
+!SUBENTRY 1 com.ti.ccstudio.debug 4 20003 2018-12-10 15:40:04.532
+!MESSAGE Target must be connected before calling the function
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-10 16:02:29.331
+!MESSAGE DS_ERROR: MSP430: JTAG Communication Error 
+

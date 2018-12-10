@@ -6,8 +6,7 @@
 // Function prototypes
 void ConfigureClockModule(void);
 
-void main(void)
-{
+void main(void){
     // Stop the watchdog timer, and configure the clock module.
     WDTCTL = WDTPW + WDTHOLD;
     ConfigureClockModule();
@@ -17,24 +16,27 @@ void main(void)
     InitializeLEDPortPin();
 
     // Configure timer A to generate the required interrupt.
-    ConfigureTimerA();
+    //ConfigureTimerA();
     _enable_interrupts();
 
     // Infinite loop
     while (1) {
 
     	// If motion ... turn it "on"
-    	if (!(READ_PIR_VAL))
-    		TA0CCR1 = 1;
+    	if (!(READ_PIR_VAL)){
+    		TURN_OFF_LED;
+    		//TA0CCR1 = 1;
+    	}
+    	else{
+    		TURN_ON_LED;
+    	}
     	// If no Motion ... turn it "off"
-		if (READ_PIR_VAL)
-			TA0CCR1 = 100;
-
+        // If (READ_PIR_VAL)
+        // TA0CCR1 = 50; // (50 / 249) = duty cycle
     }
 }
 
-void ConfigureClockModule(void)
-{
+void ConfigureClockModule(void){
     // Configure Digitally Controlled Oscillator (DCO) using factory calibrations.
     DCOCTL  = CALDCO_1MHZ;
     BCSCTL1 = CALBC1_1MHZ;

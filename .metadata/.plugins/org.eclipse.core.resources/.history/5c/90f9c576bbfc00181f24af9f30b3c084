@@ -1,0 +1,43 @@
+#include <msp430.h>
+#include "LED.h"
+#include "timerA.h"
+#include "pir.h"
+
+// Function prototypes
+void ConfigureClockModule(void);
+
+void main(void)
+{
+    // Stop the watchdog timer, and configure the clock module.
+    WDTCTL = WDTPW + WDTHOLD;
+    ConfigureClockModule();
+
+    // Initialize port pins associated with the PIR and LED.
+    InitializePIRPortPin();
+    InitializeLEDPortPin();
+
+    // Configure timer A to generate the required interrupt.
+    ConfigureTimerA();
+    _enable_interrupts();
+
+    // Infinite loop
+    while (1) {
+
+    	// If motion ... turn it "on"
+    	if (!(READ_PIR_VAL))
+    		//TA0CCR1 = 1;
+    	else
+    	// If no Motion ... turn it "off"
+//		if (READ_PIR_VAL)
+//			TA0CCR1 = 50; // (50 / 249) = duty cycle
+
+    }
+}
+
+void ConfigureClockModule(void)
+{
+    // Configure Digitally Controlled Oscillator (DCO) using factory calibrations.
+    DCOCTL  = CALDCO_1MHZ;
+    BCSCTL1 = CALBC1_1MHZ;
+    BCSCTL2 |= DIVS_3;
+}
