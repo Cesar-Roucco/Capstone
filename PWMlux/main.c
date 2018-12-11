@@ -25,12 +25,27 @@ void main(void){
     TA0CCR0 = 249; // Set the period in the Timer A0 Capture/Compare 0 register to 249us.
     TA0CCTL1 = OUTMOD_7;
 
+    // Lux Values
+    int luxVal;
+
     // Infinite loop
     while (1) {
 
     	// If motion ... turn it "on"
     	if ((READ_PIR_VAL)){
-		    TA0CCR1 = 25; // The period in microseconds that the power is ON. It's half the time, which translates to a 2% duty cycle.
+    		if(luxVal < 100){
+    			TA0CCR1 = 50; // The period in microseconds that the power is ON. It's half the time, which translates to a 20% duty cycle.
+    		}
+    		else if(luxVal >= 100 && luxVal <= 200){
+    			TA0CCR1 = 25;
+    		}
+    		else if(luxVal >= 201 && luxVal <= 500){
+    			TA0CCR1 = 10;
+    		}
+    		else{
+    			TA0CCR1 = 0;
+    		}
+    		_delay_cycles(1000000 * 5); // holds the light for 5 seconds
     	}
 
     	// If no Motion ... turn it "off"

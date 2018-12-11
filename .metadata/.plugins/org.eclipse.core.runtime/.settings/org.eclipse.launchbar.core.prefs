@@ -1,8 +1,10 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:PWMcaptest,org.eclipse.launchbar.core.descriptorType.default\:PWMcapstone
+configDescList=
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:PWMactual/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:PWMactual/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:PWMcapcopy/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:PWMcapcopy/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:PWMcapstone/activeLaunchMode=debug
