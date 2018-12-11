@@ -1,7 +1,16 @@
 
 **** Build of configuration Debug for project lightupLED ****
 
-"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
-gmake: Nothing to be done for 'all'.
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building target: "lightupLED.out"
+Invoking: MSP430 Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all -g --define=__MSP430G2553__ --diag_wrap=off --display_error_number --diag_warning=225 --printf_support=minimal -z -m"lightupLED.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv8/ccs_base/msp430/include" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/include" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="lightupLED_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lightupLED.out" "./LED.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "lightupLED.out"
+ 
 
 **** Build Finished ****

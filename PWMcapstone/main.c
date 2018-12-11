@@ -18,21 +18,30 @@ void main(void){
     // Configure timer A to generate the required interrupt.
     //ConfigureTimerA();
     _enable_interrupts();
+    //P1DIR |= BIT0;
+
 
     // Infinite loop
     while (1) {
 
     	// If motion ... turn it "on"
-    	if (!(READ_PIR_VAL)){
-    		TURN_OFF_LED;
+    	if ((READ_PIR_VAL)){
+			TURN_ON_LED;
+			//P1OUT|= BIT0;
+
+
     		//TA0CCR1 = 1;
     	}
-    	else{
-    		TURN_ON_LED;
-    	}
     	// If no Motion ... turn it "off"
-        // If (READ_PIR_VAL)
-        // TA0CCR1 = 50; // (50 / 249) = duty cycle
+    	else {
+
+			TURN_OFF_LED;
+			//P1OUT &= ~BIT0;
+
+
+    		// TA0CCR1 = 5; // (5 / 249) = 2% duty cycle
+      		// _delay_cycles(1000000);
+    	}
     }
 }
 

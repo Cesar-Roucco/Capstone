@@ -3,9 +3,12 @@
 #define LED BIT6
 #define BUTTON BIT3
 
+// Function prototypes
+void ConfigureClockModule(void);
+
 void main(void){
 	WDTCTL = WDTPW|WDTHOLD;
-	P1DIR = LED;
+    P1DIR = LED;
 	P1REN = BUTTON;
 	P1OUT = BUTTON;
 
