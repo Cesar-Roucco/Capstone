@@ -5906,3 +5906,14 @@ The voltage 1447 value is not correct/allowed for the USB FET
 
 !ENTRY org.eclipse.cdt.core 1 0 2018-12-11 10:29:07.961
 !MESSAGE Indexed 'PWMlux' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-11 12:44:47.614
+!MESSAGE Indexed 'FinalDesign' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-11 12:52:41.514
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-12-11 12:52:41.769
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found

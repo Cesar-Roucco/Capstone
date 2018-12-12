@@ -1,0 +1,1 @@
+"./LED.obj" "./TI_USCI_I2C_master.obj" "./main.obj" "./opt3001.obj" "./pir.obj" "../lnk_msp430g2553.cmd" -llibc.a 
